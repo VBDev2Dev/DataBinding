@@ -54,6 +54,9 @@ This is a walkthrough on using databinding in winforms and EF.  It will guide yo
 1. [Enable Migrations](https://www.entityframeworktutorial.net/code-first/code-based-migration-in-code-first.aspx) *This makes it so you are deliberate with your migrations.* -- 2fc00db8e0663a6a9110c2996e0cfa0e245520a8
 ![Enable Migrations](Images/EF Context/3.png)
 
-1. [Run Add-Migration and Update-Database](https://www.entityframeworktutorial.net/code-first/code-based-migration-in-code-first.aspx)
+1. [Run Add-Migration and Update-Database](https://www.entityframeworktutorial.net/code-first/code-based-migration-in-code-first.aspx) -- 717f17eb919a874b04a0bf188d4b3e1e896b0bae
 ![Add Migration](Images/EF Context/4.png)
 ![Add Migration](Images/EF Context/5.png)
+
+1. Set database **Copy to Output Directory** property to **Copy if newer**  *This prevents builds from copying the database every time.  This is needed if you want to add another migration.*
+![Copy if newer](Images/EF Context/6.png)

@@ -149,10 +149,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DataBindingSample.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="DataBindingSample_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>DataBindingSample.mdf</DependentUpon>
     </Content>
   </ItemGroup>
