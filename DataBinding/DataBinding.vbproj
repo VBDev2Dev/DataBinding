@@ -98,6 +98,10 @@
       <DependentUpon>frmDataBinding.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Migrations\201912152323574_Initial RowData setup.designer.vb">
+      <DependentUpon>201912152323574_Initial RowData setup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912152323574_Initial RowData setup.vb" />
     <Compile Include="Migrations\Configuration.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -119,6 +123,9 @@
   <ItemGroup>
     <EmbeddedResource Include="frmDataBinding.resx">
       <DependentUpon>frmDataBinding.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912152323574_Initial RowData setup.resx">
+      <DependentUpon>201912152323574_Initial RowData setup.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
