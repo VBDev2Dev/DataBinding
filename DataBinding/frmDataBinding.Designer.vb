@@ -22,10 +22,77 @@ Partial Class frmDataBinding
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Me.components = New System.ComponentModel.Container()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.RowDataBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.NameDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ADataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.BDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.CDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RowDataBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.DataGridView1.AutoGenerateColumns = False
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.NameDataGridViewTextBoxColumn, Me.ADataGridViewTextBoxColumn, Me.BDataGridViewTextBoxColumn, Me.CDataGridViewTextBoxColumn})
+        Me.DataGridView1.DataSource = Me.RowDataBindingSource
+        Me.DataGridView1.Location = New System.Drawing.Point(26, 28)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(729, 143)
+        Me.DataGridView1.TabIndex = 0
+        '
+        'RowDataBindingSource
+        '
+        Me.RowDataBindingSource.DataSource = GetType(DataBinding.RowData)
+        '
+        'NameDataGridViewTextBoxColumn
+        '
+        Me.NameDataGridViewTextBoxColumn.DataPropertyName = "Name"
+        Me.NameDataGridViewTextBoxColumn.HeaderText = "Name"
+        Me.NameDataGridViewTextBoxColumn.Name = "NameDataGridViewTextBoxColumn"
+        '
+        'ADataGridViewTextBoxColumn
+        '
+        Me.ADataGridViewTextBoxColumn.DataPropertyName = "A"
+        Me.ADataGridViewTextBoxColumn.HeaderText = "A"
+        Me.ADataGridViewTextBoxColumn.Name = "ADataGridViewTextBoxColumn"
+        '
+        'BDataGridViewTextBoxColumn
+        '
+        Me.BDataGridViewTextBoxColumn.DataPropertyName = "B"
+        Me.BDataGridViewTextBoxColumn.HeaderText = "B"
+        Me.BDataGridViewTextBoxColumn.Name = "BDataGridViewTextBoxColumn"
+        '
+        'CDataGridViewTextBoxColumn
+        '
+        Me.CDataGridViewTextBoxColumn.DataPropertyName = "C"
+        Me.CDataGridViewTextBoxColumn.HeaderText = "C"
+        Me.CDataGridViewTextBoxColumn.Name = "CDataGridViewTextBoxColumn"
+        Me.CDataGridViewTextBoxColumn.ReadOnly = True
+        '
+        'frmDataBinding
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.DataGridView1)
+        Me.Name = "frmDataBinding"
         Me.Text = "Form1"
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RowDataBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+
     End Sub
 
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents RowDataBindingSource As BindingSource
+    Friend WithEvents NameDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents ADataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents BDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents CDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
 End Class
