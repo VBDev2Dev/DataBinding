@@ -46,3 +46,5 @@ This is a walkthrough on using databinding in winforms and EF.  It will guide yo
     *This adds an empty sql server database that you can modify if needed*
     ![Add DB](Images/EF Context/1.png)
 
+    1. Add EF Database Context
+    ![Add EF Context](Images/EF Context/2.png)
