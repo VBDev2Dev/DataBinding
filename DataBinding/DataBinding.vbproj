@@ -98,6 +98,7 @@
       <DependentUpon>frmDataBinding.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Migrations\Configuration.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

@@ -49,4 +49,7 @@ This is a walkthrough on using databinding in winforms and EF.  It will guide yo
     1. Add EF Database Context -- 4c7be23160b0a64244fccaa67c0c40d62f5fd606
     ![Add EF Context](Images/EF Context/2.png)
 
-    1. Adjust connection string of context to use [DataDirectory](https://social.msdn.microsoft.com/Forums/sqlserver/en-US/dc31ea59-5718-49b6-9f1f-7039da425296/where-is-datadirectory-?forum=sqlce)
+    1. Adjust connection string of context to use [DataDirectory](https://social.msdn.microsoft.com/Forums/sqlserver/en-US/dc31ea59-5718-49b6-9f1f-7039da425296/where-is-datadirectory-?forum=sqlce) -- 46d5ef4b747f59e7a6d44466c6c8e662f9d555b4
+
+1. [Enable Migrations](https://www.entityframeworktutorial.net/code-first/code-based-migration-in-code-first.aspx) *This makes it so you are deliberate with your migrations.*
+![Enable Migrations](Images/EF Context/3.png)
