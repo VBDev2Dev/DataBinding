@@ -37,3 +37,12 @@ This is a walkthrough on using databinding in winforms and EF.  It will guide yo
 1. Debug the project
     1. Add some rows in grid
     1. Click button.
+
+### **Switch To DB**
+
+1. Add DB items to project
+
+    1. Add Service Based Database.  -- c035ce0b32bafeba0bb3cfeae4af943712564e6c
+    *This adds an empty sql server database that you can modify if needed*
+    ![Add DB](Images/EF Context/1.png)
+
