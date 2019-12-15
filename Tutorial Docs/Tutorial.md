@@ -46,5 +46,7 @@ This is a walkthrough on using databinding in winforms and EF.  It will guide yo
     *This adds an empty sql server database that you can modify if needed*
     ![Add DB](Images/EF Context/1.png)
 
-    1. Add EF Database Context
+    1. Add EF Database Context -- 4c7be23160b0a64244fccaa67c0c40d62f5fd606
     ![Add EF Context](Images/EF Context/2.png)
+
+    1. Adjust connection string of context to use [DataDirectory](https://social.msdn.microsoft.com/Forums/sqlserver/en-US/dc31ea59-5718-49b6-9f1f-7039da425296/where-is-datadirectory-?forum=sqlce)
