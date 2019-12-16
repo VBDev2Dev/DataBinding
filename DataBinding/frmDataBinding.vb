@@ -10,4 +10,8 @@ Public Class frmDataBinding
         RowDataBindingSource.DataSource = data
 
     End Sub
+
+    Private Sub frmDataBinding_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        context.SaveChanges()
+    End Sub
 End Class

@@ -74,4 +74,6 @@ This is a walkthrough on using databinding in winforms and EF.  It will guide yo
     Update-Database
     ```
 
-1. Load data from db into context and show in grid
+1. Load data from db into context and show in grid -- e35c01ffb31207986e6357f56be700c1086cfd81
+
+1. Save changes to db
