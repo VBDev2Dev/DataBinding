@@ -78,4 +78,8 @@ This is a walkthrough on using databinding in winforms and EF.  It will guide yo
 
 1. Save changes to db -- aefe5fba1d8e1da7cc116d3b780d35af2bc7b43b
 
-1. Sort data coming from db
+1. Sort data coming from db -- 8928f0daceb4767389cf008708c07be7d9423b7a
+
+### **Make it nice**
+
+1. Make grid repsonsive

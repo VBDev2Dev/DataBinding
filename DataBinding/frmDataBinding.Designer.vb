@@ -35,7 +35,8 @@ Partial Class frmDataBinding
         '
         'DataGridView1
         '
-        Me.DataGridView1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.DataGridView1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DataGridView1.AutoGenerateColumns = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
@@ -43,7 +44,7 @@ Partial Class frmDataBinding
         Me.DataGridView1.DataSource = Me.RowDataBindingSource
         Me.DataGridView1.Location = New System.Drawing.Point(26, 28)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(729, 143)
+        Me.DataGridView1.Size = New System.Drawing.Size(729, 273)
         Me.DataGridView1.TabIndex = 0
         '
         'RowDataBindingSource
