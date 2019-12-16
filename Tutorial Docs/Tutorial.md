@@ -82,4 +82,14 @@ This is a walkthrough on using databinding in winforms and EF.  It will guide yo
 
 ### **Make it nice**
 
-1. Make grid repsonsive
+1. Make grid repsonsive -- 409e37078c528e4ae093a1e321bf19d6dab42832
+
+1. Add logging
+
+``` ps
+    Install-Package Serilog.Sinks.File
+    Install-Package Serilog.Sinks.Console
+```
+
+![Add Logging](Images/Add Logging/1.png)
+
