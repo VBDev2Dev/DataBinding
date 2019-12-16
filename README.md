@@ -7,3 +7,4 @@ This is a walkthrough on using databinding in winforms and EF.  It will guide yo
 - Style row based on if row is selected
 - Let user specify crieteria to only pull down those records
 - Make a Master Detail view of some other data so that you have a ui that shows the master record and the grid shows the detail records of that master record
+- Demonstrate deployment using [Wix Toolset](https://wixtoolset.org/)
