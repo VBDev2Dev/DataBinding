@@ -11,6 +11,7 @@ Public Class RowData
         End Get
     End Property
     <Key>
+    <StringLength(200)>
     Property Name As String
 End Class
 

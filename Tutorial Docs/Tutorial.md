@@ -58,5 +58,12 @@ This is a walkthrough on using databinding in winforms and EF.  It will guide yo
 ![Add Migration](Images/EF Context/4.png)
 ![Add Migration](Images/EF Context/5.png)
 
-1. Set database **Copy to Output Directory** property to **Copy if newer**  *This prevents builds from copying the database every time.  This is needed if you want to add another migration.*
+1. Set database **Copy to Output Directory** property to **Copy if newer**  *This prevents builds from copying the database every time.  This is needed if you want to add another migration.* -- 54581d486f79eb8cc5d03d7179b47fc3c3675c20
 ![Copy if newer](Images/EF Context/6.png)
+
+1. Add a migration to change the length of the Name column *Add-Migration and Update-Database*
+
+    ``` ps
+    Add-Migration "Increase length of name"
+    Update-Database
+    ```
