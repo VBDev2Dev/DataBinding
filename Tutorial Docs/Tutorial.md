@@ -68,8 +68,10 @@ This is a walkthrough on using databinding in winforms and EF.  It will guide yo
     Update-Database
     ```
 
-1. Seed db with initial data
+1. Seed db with initial data -- 613b45b60c15a78b4ae80744863f53c494fa8c10
 
     ``` ps
     Update-Database
     ```
+
+1. Load data from db into context and show in grid
