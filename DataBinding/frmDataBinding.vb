@@ -17,4 +17,8 @@ Public Class frmDataBinding
     Private Sub frmDataBinding_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
         context.SaveChanges()
     End Sub
+
+    Private Sub btnSelected_Click(sender As Object, e As EventArgs) Handles btnSelected.Click
+        MessageBox.Show($"There are {data.Where(Function(r) r.Selected).Count} selected items.")
+    End Sub
 End Class

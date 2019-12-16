@@ -14,6 +14,8 @@ Public Class RowData
     <StringLength(200)>
     Property Name As String
     Property SomeFlag As Boolean = False
+    <NotMapped>
+    Property Selected As Boolean
 End Class
 
 
