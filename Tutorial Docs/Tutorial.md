@@ -76,4 +76,6 @@ This is a walkthrough on using databinding in winforms and EF.  It will guide yo
 
 1. Load data from db into context and show in grid -- e35c01ffb31207986e6357f56be700c1086cfd81
 
-1. Save changes to db
+1. Save changes to db -- aefe5fba1d8e1da7cc116d3b780d35af2bc7b43b
+
+1. Sort data coming from db
