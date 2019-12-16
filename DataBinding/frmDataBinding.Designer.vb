@@ -29,6 +29,7 @@ Partial Class frmDataBinding
         Me.ADataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.BDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.CDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.SomeFlagColumn = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RowDataBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -40,7 +41,7 @@ Partial Class frmDataBinding
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DataGridView1.AutoGenerateColumns = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.NameDataGridViewTextBoxColumn, Me.ADataGridViewTextBoxColumn, Me.BDataGridViewTextBoxColumn, Me.CDataGridViewTextBoxColumn})
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.NameDataGridViewTextBoxColumn, Me.ADataGridViewTextBoxColumn, Me.BDataGridViewTextBoxColumn, Me.CDataGridViewTextBoxColumn, Me.SomeFlagColumn})
         Me.DataGridView1.DataSource = Me.RowDataBindingSource
         Me.DataGridView1.Location = New System.Drawing.Point(26, 28)
         Me.DataGridView1.Name = "DataGridView1"
@@ -76,6 +77,12 @@ Partial Class frmDataBinding
         Me.CDataGridViewTextBoxColumn.Name = "CDataGridViewTextBoxColumn"
         Me.CDataGridViewTextBoxColumn.ReadOnly = True
         '
+        'SomeFlagColumn
+        '
+        Me.SomeFlagColumn.DataPropertyName = "SomeFlag"
+        Me.SomeFlagColumn.HeaderText = "SomeFlag"
+        Me.SomeFlagColumn.Name = "SomeFlagColumn"
+        '
         'frmDataBinding
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -96,4 +103,5 @@ Partial Class frmDataBinding
     Friend WithEvents ADataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents BDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents CDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents SomeFlagColumn As DataGridViewCheckBoxColumn
 End Class

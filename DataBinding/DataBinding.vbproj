@@ -107,6 +107,10 @@
       <DependentUpon>201912152328286_Increase length of name.vb</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201912152328286_Increase length of name.vb" />
+    <Compile Include="Migrations\201912160322358_Add new boolean flag.designer.vb">
+      <DependentUpon>201912160322358_Add new boolean flag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912160322358_Add new boolean flag.vb" />
     <Compile Include="Migrations\Configuration.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -134,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912152328286_Increase length of name.resx">
       <DependentUpon>201912152328286_Increase length of name.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912160322358_Add new boolean flag.resx">
+      <DependentUpon>201912160322358_Add new boolean flag.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

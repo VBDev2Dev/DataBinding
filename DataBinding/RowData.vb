@@ -13,6 +13,7 @@ Public Class RowData
     <Key>
     <StringLength(200)>
     Property Name As String
+    Property SomeFlag As Boolean = False
 End Class
 
 
